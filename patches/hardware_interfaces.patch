@@ -1,0 +1,13 @@
+diff --git a/audio/core/all-versions/default/DevicesFactory.cpp b/audio/core/all-versions/default/DevicesFactory.cpp
+index 729f18c..145c119 100644
+--- a/audio/core/all-versions/default/DevicesFactory.cpp
++++ b/audio/core/all-versions/default/DevicesFactory.cpp
+@@ -36,7 +36,7 @@ Return<void> DevicesFactory::openDevice(IDevicesFactory::Device device, openDevi
+         case IDevicesFactory::Device::PRIMARY:
+             return openDevice<PrimaryDevice>(AUDIO_HARDWARE_MODULE_ID_PRIMARY, _hidl_cb);
+         case IDevicesFactory::Device::A2DP:
+-            return openDevice(AUDIO_HARDWARE_MODULE_ID_A2DP, _hidl_cb);
++            return openDevice("bluetooth", _hidl_cb);
+         case IDevicesFactory::Device::USB:
+             return openDevice(AUDIO_HARDWARE_MODULE_ID_USB, _hidl_cb);
+         case IDevicesFactory::Device::R_SUBMIX:

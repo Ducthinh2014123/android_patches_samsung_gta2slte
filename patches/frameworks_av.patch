@@ -1,0 +1,14 @@
+diff --git a/media/libaudiohal/impl/DevicesFactoryHalHidl.cpp b/media/libaudiohal/impl/DevicesFactoryHalHidl.cpp
+index 1c0eacb..b9b3f11 100644
+--- a/media/libaudiohal/impl/DevicesFactoryHalHidl.cpp
++++ b/media/libaudiohal/impl/DevicesFactoryHalHidl.cpp
+@@ -87,7 +87,8 @@ static IDevicesFactory::Device idFromHal(const char *name, status_t* status) {
+     *status = OK;
+     if (strcmp(name, AUDIO_HARDWARE_MODULE_ID_PRIMARY) == 0) {
+         return IDevicesFactory::Device::PRIMARY;
+-    } else if(strcmp(name, AUDIO_HARDWARE_MODULE_ID_A2DP) == 0) {
++    } else if(strcmp(name, "bluetooth") == 0 ||
++              strcmp(name, AUDIO_HARDWARE_MODULE_ID_A2DP) == 0) {
+         return IDevicesFactory::Device::A2DP;
+     } else if(strcmp(name, AUDIO_HARDWARE_MODULE_ID_USB) == 0) {
+         return IDevicesFactory::Device::USB;

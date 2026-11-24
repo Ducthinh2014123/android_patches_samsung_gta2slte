@@ -1,0 +1,12 @@
+diff --git a/updater/Android.mk b/updater/Android.mk
+index 46300d9..a7c8d09 100644
+--- a/updater/Android.mk
++++ b/updater/Android.mk
+@@ -72,6 +72,7 @@ endef
+ include $(CLEAR_VARS)
+ 
+ LOCAL_MODULE := updater
++LOCAL_MULTILIB := 32
+ 
+ LOCAL_SRC_FILES := \
+     updater_main.cpp
