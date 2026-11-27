@@ -6,9 +6,9 @@
   
   <default remote="github" revision="refs/heads/lineage-18.1" sync-j="4" sync-c="true"/>
   
-  <project name="Ducthinh2014123/android_device_samsung_gta2slte" path="device/samsung/gta2slte" remote="github-local" revision="37e45ff8620f872661266c8297eabd7943d0ffc2" upstream="lineage-18.1" dest-branch="lineage-18.1" groups="local::gta2slte"/>
-  <project name="Ducthinh2014123/android_kernel_samsung_msm8937" path="kernel/samsung/msm8937" remote="github-local" revision="24810576d36a14f88cc7a089129eee6896938d4b" upstream="lineage-18.1" dest-branch="lineage-18.1" groups="local::gta2slte"/>
-  <project name="Ducthinh2014123/proprietary_vendor_samsung_gta2slte" path="vendor/samsung/gta2slte" remote="github-local" revision="9d665337dd3226a12b8a673e023bd2ecb8e632eb" upstream="lineage-18.1" dest-branch="lineage-18.1" groups="local::gta2slte"/>
+  <project name="Ducthinh2014123/android_device_samsung_gta2slte" path="device/samsung/gta2slte" remote="github-local" revision="5844f9d75a72502f1cf75bdb94d5d89a5abd51f5" upstream="lineage-18.1" dest-branch="lineage-18.1" groups="local::gta2slte"/>
+  <project name="Ducthinh2014123/android_kernel_samsung_msm8937" path="kernel/samsung/msm8937" remote="github-local" revision="1e90a040d2c448254413733160db70f85d3453ac" upstream="lineage-18.1" dest-branch="lineage-18.1" groups="local::gta2slte"/>
+  <project name="Ducthinh2014123/proprietary_vendor_samsung_gta2slte" path="vendor/samsung/gta2slte" remote="github-local" revision="3838604c07801d31d6f876c0f840e8ee63742d04" upstream="lineage-18.1" dest-branch="lineage-18.1" groups="local::gta2slte"/>
   <project name="LineageOS/android" path="android" revision="75e412bbb78aa0009405f696d0d3775e995e64ca" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1"/>
   <project name="LineageOS/android_art" path="art" revision="7f2b48980eaa3e9ebeb3fe2df55ae4beb96f8248" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="b67b03356ceb6171bd0cfdb88c3ee9413c476935" upstream="refs/heads/lineage-18.1" dest-branch="refs/heads/lineage-18.1" groups="pdk"/>
